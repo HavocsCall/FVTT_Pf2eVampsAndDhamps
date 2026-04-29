@@ -1,5 +1,5 @@
 {
-  "id": "foundryvtt-pf2e-vamps-and-dhamps",
+  "id": "FVTT_Pf2eVampsAndDhamps",
   "title": "PF2e Vamps and Dhamps",
   "description": "A module for Foundry VTT that adds vampire and dhampir ancestries, heritages, and feats to the PF2e system.",
   "changelog": "CHANGELOG.md",
@@ -23,22 +23,24 @@
   },
   "flags": {
     "canUpload": true,
-    "foundryvtt-pf2e-vamps-and-dhamps": {
+    "FVTT_PF2EVAMPSANDDHAMPS": {
       "pf2e-homebrew": {
         "creatureTraits": {
-          "Jinag-shi": "PF2eVampsandDhamps.Trait.JiangShi",
-          "Moroi": "PF2eVampsandDhamps.Trait.Moroi",
-          "Strigoi": "PF2eVampsandDhamps.Trait.Strigoi",
-          "Vetalarana": "PF2eVampsandDhamps.Trait.Vetalarana",
-          "Vrykolakas": "PF2eVampsandDhamps.Trait.Vrykolakas"
+          "Jinag-shi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI",
+          "Moroi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI",
+          "Nosferatu": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU",
+          "Strigoi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI",
+          "Vetalarana": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA",
+          "Vrykolakas": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS"
         },
         "featTraits": {
-          "vampire": "PF2eVampsandDhamps.Ancestry.Vampire",
-          "Jinag-shi": "PF2eVampsandDhamps.Trait.JiangShi",
-          "Moroi": "PF2eVampsandDhamps.Trait.Moroi",
-          "Strigoi": "PF2eVampsandDhamps.Trait.Strigoi",
-          "Vetalarana": "PF2eVampsandDhamps.Trait.Vetalarana",
-          "Vrykolakas": "PF2eVampsandDhamps.Trait.Vrykolakas"
+          "vampire": "FVTT_PF2EVAMPSANDDHAMPS.ANCESTRY.VAMPIRE",
+          "Jinag-shi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI",
+          "Moroi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI",
+          "Nosferatu": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU",
+          "Strigoi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI",
+          "Vetalarana": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA",
+          "Vrykolakas": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS"
         }
       }
     }

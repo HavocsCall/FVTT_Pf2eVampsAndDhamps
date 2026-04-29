@@ -1,119 +1,118 @@
 {
-    "PF2eVampsandDhamps": {
-        "Actions":{
-            "Abilities": {
-                "ChangeShapeVryk": {
-                    "Name": "Change Chape (Vrykolakas)",
-                    "Description": "Change Shape Vrykolakas Description"
+    "FVTT_PF2EVAMPSANDDHAMPS": {
+        "NAME": "PF2E Vamps and Dhamps",
+        "ACTIONS": {
+            "ABILITIES": {
+                "CHANGESHAPEVRYK": {
+                    "NAME": "Change Chape (Vrykolakas)",
+                    "DESCRIPTION": "Change Shape Vrykolakas Description"
                 },
-                "DrinkBreath": {
-                    "Name": "Drink Breath",
-                    "Description": "Drink Breath Description"
+                "DRINKBREATH": {
+                    "NAME": "Drink Breath",
+                    "DESCRIPTION": "Drink Breath Description"
                 },
-                "DrinkEssense": {
-                    "Name": "Drink Essence",
-                    "Description": "Drink Essence Description"
+                "DRINKESSENSE": {
+                    "NAME": "Drink Essence",
+                    "DESCRIPTION": "Drink Essence Description"
                 },
-                "DrinkThoughts": {
-                    "Name": "Drink Thoughts",
-                    "Description": "Drink Thoughts Description"
+                "DRINKTHOUGHTS": {
+                    "NAME": "Drink Thoughts",
+                    "DESCRIPTION": "Drink Thoughts Description"
                 },
-                "FeralPossession": {
-                    "Name": "Feral Possession",
-                    "Description": "Feral Possession Description"
+                "FERALPOSSESSION": {
+                    "NAME": "Feral Possession",
+                    "DESCRIPTION": "Feral Possession Description"
                 },
-                "MentalRebirth": {
-                    "Name": "Mental Rebirth",
-                    "Description": "Mental Rebirth Description"
+                "MENTALREBIRTH": {
+                    "NAME": "Mental Rebirth",
+                    "DESCRIPTION": "Mental Rebirth Description"
                 },
-                "MistEscape": {
-                    "Name": "Mist Escape",
-                    "Description": "Mist Escape Description"
+                "MISTESCAPE": {
+                    "NAME": "Mist Escape",
+                    "DESCRIPTION": "Mist Escape Description"
                 },
-                "OneMoreBreath": {
-                    "Name": "One More Breath",
-                    "Description": "One More Breath Description"
+                "ONEMOREBREATH": {
+                    "NAME": "One More Breath",
+                    "DESCRIPTION": "One More Breath Description"
                 },
-                "PlagueOfRats": {
-                    "Name": "Plague of Rats",
-                    "Description": "Plague of Rats Description"
+                "PLAGUEOFRATS": {
+                    "NAME": "Plague of Rats",
+                    "DESCRIPTION": "Plague of Rats Description"
                 },
-                "ShadowEscape": {
-                    "Name": "Shadow Escape",
-                    "Description": "Shadow Escape Description"
+                "SHADOWESCAPE": {
+                    "NAME": "Shadow Escape",
+                    "DESCRIPTION": "Shadow Escape Description"
                 }
             }
         },
-        "Ancestry": {
-            "Vampire": "Vampire",
-            "VampireDesc": "Vampire Description"
+        "ANCESTRY": {
+            "VAMPIRE": "Vampire",
+            "VAMPIREDESC": "Vampire Description"
         },
-        "Feats": {
-            "AncestryFeats": {
-                "BatsInstinct": {
-                    "Name": "Bat's Instinct",
-                    "Description": "Bat's Instinct Description"
+        "FEATS": {
+            "ANCESTRYFEATS": {
+                "BATSINSTINCT": {
+                    "NAME": "Bat's Instinct",
+                    "DESCRIPTION": "Bat's Instinct Description"
                 },
-                "NightsStride": {
-                    "Name": "Night's Stride",
-                    "Description": "Night's Stride Description"
+                "NIGHTSSTRIDE": {
+                    "NAME": "Night's Stride",
+                    "DESCRIPTION": "Night's Stride Description"
                 },
-                "ClingingClimber": {
-                    "Name": "Clinging Climber",
-                    "Description": "Clinging Climber Description"
+                "CLINGINGCLIMBER": {
+                    "NAME": "Clinging Climber",
+                    "DESCRIPTION": "Clinging Climber Description"
                 },
-                "ViciousFangs": {
-                    "Name": "Vicious Fangs",
-                    "Description": "Vicious Fangs Description"
+                "VICIOUSFANGS": {
+                    "NAME": "Vicious Fangs",
+                    "DESCRIPTION": "Vicious Fangs Description"
                 },
-                "BatForm": {
-                    "Name": "Bat Form",
-                    "Description": "Bat Form Description"
+                "BATFORM": {
+                    "NAME": "Bat Form",
+                    "DESCRIPTION": "Bat Form Description"
                 },
-                "Bloodsense": {
-                    "Name": "Bloodsense",
-                    "Description": "Bloodsense Description"
+                "BLOODSENSE": {
+                    "NAME": "Bloodsense",
+                    "DESCRIPTION": "Bloodsense Description"
                 },
-                "GreaterSatiation": {
-                    "Name": "Greater Satiation",
-                    "Description": "Greater Satiation Description"
+                "GREATERSATIATION": {
+                    "NAME": "Greater Satiation",
+                    "DESCRIPTION": "Greater Satiation Description"
                 },
-                "RejuvenatingFeast": {
-                    "Name": "Rejuvenating Feast",
-                    "Description": "Rejuvenating Feast Description"
+                "REJUVENATINGFEAST": {
+                    "NAME": "Rejuvenating Feast",
+                    "DESCRIPTION": "Rejuvenating Feast Description"
                 },
-                "NoRestForTheDamned": {
-                    "Name": "No Rest for the Damned",
-                    "Description": "No Rest for the Damned Description"
+                "NORESTFORTHEDAMNED": {
+                    "NAME": "No Rest for the Damned",
+                    "DESCRIPTION": "No Rest for the Damned Description"
                 },
-                "VoidRegeneration": {
-                    "Name": "Void Regeneration",
-                    "Description": "Void Regeneration Description"
+                "VOIDREGENERATION": {
+                    "NAME": "Void Regeneration",
+                    "DESCRIPTION": "Void Regeneration Description"
                 }
             },
-            "HeritageFeats": {
-                "JiangShi": {
-                    "JiangShiLore": {
-                        "Name": "Jiang-Shi Lore",
-                        "Description": "Jiang-Shi Lore Description"
+            "HERITAGEFEATS": {
+                "JIANGSHI": {
+                    "JIANGSHILORE": {
+                        "NAME": "Jiang-Shi Lore",
+                        "DESCRIPTION": "Jiang-Shi Lore Description"
                     },
-                    "RigorMortis": {
-                        "Name": "Rigor Mortis",
-                        "Description": "Rigor Mortis Description"
+                    "RIGORMORTIS": {
+                        "NAME": "Rigor Mortis",
+                        "DESCRIPTION": "Rigor Mortis Description"
                     }
                 },
-                "Moroi": {
-
-                }
+                "MOROI": {}
             }
         },
-        "Trait": {
-            "JiangShi": "Jiang-Shi",
-            "Moroi": "Moroi",
-            "Nosferatu": "Nosferatu",
-            "Strigoi": "Strigoi",
-            "Vetalarana": "Vetalarana",
-            "Vrykolakas": "Vrykolakas"
+        "TRAIT": {
+            "JIANGSHI": "Jiang-Shi",
+            "MOROI": "Moroi",
+            "NOSFERATU": "Nosferatu",
+            "STRIGOI": "Strigoi",
+            "VETALARANA": "Vetalarana",
+            "VRYKOLAKAS": "Vrykolakas"
         }
     }
 }
