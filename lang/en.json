@@ -1,6 +1,6 @@
 {
     "FVTT_PF2EVAMPSANDDHAMPS": {
-        "NAME": "PF2E Vamps and Dhamps",
+        "NAME": "PF2e Vamps and Dhamps",
         "ACTIONS": {
             "ABILITIES": {
                 "CHANGESHAPEVRYK": {
@@ -106,13 +106,83 @@
                 "MOROI": {}
             }
         },
+        "SPECIFICRULES": {
+            "PREVIOUSANCESTRY": "Which ancestry were you before becoming a vampire?"
+        },
+        "SETTINGS": {
+            "FORMERANCESTRYMODE": {
+                "NAME": "Use expanded former ancestry sync",
+                "HINT": "On applies the selected former ancestry's chassis details to the vampire ancestry. Off uses only the ancestry's built-in former ancestry support."
+            },
+            "HUNGERTRACKING": {
+                "NAME": "Enable vampire hunger tracking",
+                "HINT": "Displays a hunger panel on vampire player characters and stores hunger values on actor flags."
+            },
+            "HUNGERTHRESHOLDS": {
+                "DRAINED": {
+                    "NAME": "Default Hunger threshold: Drained",
+                    "HINT": "Hunger value at which vampire characters begin gaining drained."
+                },
+                "CONFUSED": {
+                    "NAME": "Default Hunger threshold: Confused",
+                    "HINT": "Hunger value at which vampire characters begin gaining confused."
+                },
+                "DEATH": {
+                    "NAME": "Default Hunger threshold: Dying",
+                    "HINT": "Hunger value at which vampire characters begin gaining dying."
+                }
+            }
+        },
+        "CHAT": {
+            "FORMERANCESTRYMODE": {
+                "INTRO": "Vampire former ancestry supports two modes.",
+                "RULEELEMENTS_LABEL": "Built-in ancestry support:",
+                "RULEELEMENTS_BODY": "Uses only the vampire ancestry's existing former ancestry support. This is simpler, but it does not copy boosts, flaws, speed, languages, or other ancestry chassis details.",
+                "JAVASCRIPT_LABEL": "Expanded ancestry sync:",
+                "JAVASCRIPT_BODY": "Applies the selected former ancestry's chassis details to the vampire ancestry and keeps them in sync when the former ancestry selection changes.",
+                "SETTING_LOCATION": "You can switch this in Configure Settings > Module Settings > PF2e Vamps and Dhamps."
+            }
+        },
+        "HUNGER": {
+            "PANEL": {
+                "LABEL": "Hunger",
+                "MAX": "Max",
+                "EMPTY": "No hunger capacity"
+            }
+        },
         "TRAIT": {
-            "JIANGSHI": "Jiang-Shi",
-            "MOROI": "Moroi",
-            "NOSFERATU": "Nosferatu",
-            "STRIGOI": "Strigoi",
-            "VETALARANA": "Vetalarana",
-            "VRYKOLAKAS": "Vrykolakas"
+            "VAMPIRE": {
+                "LABEL": "Vampire",
+                "DESCRIPTION": "This trait marks feats, abilities, and creatures associated with the vampire ancestry."
+            },
+            "JIANGSHI": {
+                "LABEL": "Jiang-Shi",
+                "DESCRIPTION": "A member of the jiang-shi vampire lineage."
+            },
+            "MOROI": {
+                "LABEL": "Moroi",
+                "DESCRIPTION": "A member of the moroi vampire lineage."
+            },
+            "NOSFERATU": {
+                "LABEL": "Nosferatu",
+                "DESCRIPTION": "A member of the nosferatu vampire lineage."
+            },
+            "STRIGOI": {
+                "LABEL": "Strigoi",
+                "DESCRIPTION": "A member of the strigoi vampire lineage."
+            },
+            "VETALARANA": {
+                "LABEL": "Vetalarana",
+                "DESCRIPTION": "A member of the vetalarana vampire lineage."
+            },
+            "VRYKOLAKAS": {
+                "LABEL": "Vrykolakas",
+                "DESCRIPTION": "A member of the vrykolakas vampire lineage."
+            },
+            "HUNGER": {
+                "LABEL":"Hunger",
+                "DESCRIPTION": "This action requires a Hunger check which is a DC 13 Flat check. If you succeed, you may continue the action with no consequences. If you fail, your Hunger value increases by 1 after the action resolves."
+            }
         }
     }
 }

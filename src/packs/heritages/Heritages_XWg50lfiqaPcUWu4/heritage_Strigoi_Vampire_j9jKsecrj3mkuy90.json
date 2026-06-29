@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.q07o5pCh5CVhtX6W]</p><p><strong>Revulsion:</strong> Bright light</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.cXOBJ8kh0gZtGJBx]{Shadow Escape}</p><hr /><p>Shadow beings from the Netherworld.</p><p><strong>Pros:</strong></p><p>Fangs</p><p><strong>Cons:</strong></p><p>Sunlight Strigoi</p><p>Coffin-Bound</p><p></p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.q07o5pCh5CVhtX6W]</p><p><strong>Revulsion:</strong> Bright light</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.cXOBJ8kh0gZtGJBx]{Shadow Escape}</p><hr /><p>Shadow beings from the Netherworld.</p><p><strong>Pros:</strong></p><p>Fangs</p><p><strong>Cons:</strong></p><p>Sunlight Strigoi</p><p>Coffin-Bound</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -45,17 +45,17 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.q07o5pCh5CVhtX6W",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.q07o5pCh5CVhtX6W",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.sPOTbj09xrAaQWw5",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.sPOTbj09xrAaQWw5",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.nIgLgP15CEUyq14Z",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.nIgLgP15CEUyq14Z",
         "allowDuplicate": false
       },
       {
@@ -68,23 +68,30 @@
             ]
           }
         ],
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.cXOBJ8kh0gZtGJBx",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.cXOBJ8kh0gZtGJBx",
         "allowDuplicate": false,
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:strigoi"
       }
     ],
     "slug": "strigoi-vampire",
     "traits": {
       "otherTags": [],
       "value": [
-        "shadow"
+        "shadow",
+        "vampire",
+        "strigoi"
       ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "j9jKsecrj3mkuy90",

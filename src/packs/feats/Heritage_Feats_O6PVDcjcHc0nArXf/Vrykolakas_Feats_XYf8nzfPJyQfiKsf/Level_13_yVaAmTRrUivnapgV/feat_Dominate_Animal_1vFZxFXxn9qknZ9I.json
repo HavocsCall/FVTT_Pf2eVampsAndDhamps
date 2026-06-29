@@ -15,12 +15,12 @@
       "gm": ""
     },
     "level": {
-      "value": 5
+      "value": 13
     },
     "prerequisites": {
       "value": [
         {
-          "value": "Vrykolakas Heritage"
+          "value": "Vrykolakas Vampire"
         }
       ]
     },
@@ -42,7 +42,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "vrykolakas"
       ],
       "otherTags": []
     },

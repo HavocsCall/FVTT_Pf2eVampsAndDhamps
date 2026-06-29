@@ -11,7 +11,7 @@
     },
     "category": "ancestry",
     "description": {
-      "value": "<p>Get Bon Mot and Glad-Hand</p>",
+      "value": "<p>Your wit and charm always make you the center of attention. You receive the feats, @UUID[Compendium.pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot} and @UUID[Compendium.pf2e.feats-srd.cc8O47KFsODReoBe]{Glad-Hand}.</p>",
       "gm": ""
     },
     "level": {
@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Moroi Heritage"
+          "value": "Moroi Vampire"
         }
       ]
     },
@@ -45,7 +45,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "moroi"
       ],
       "otherTags": []
     },
@@ -68,12 +69,12 @@
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
     "duplicateSource": "Item.4MNL0l09CdaIAs8Y",
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "8.1.2",
     "createdTime": 1760111949143,
-    "modifiedTime": 1760122051121,
-    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+    "modifiedTime": 1779244211191,
+    "lastModifiedBy": "eFGkP8WzukLIpsI9"
   },
   "effects": [],
   "flags": {},

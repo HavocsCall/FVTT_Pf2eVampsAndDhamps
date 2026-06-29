@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Jiang-Shi Heritage"
+          "value": "Jiang-Shi Vampire"
         }
       ]
     },
@@ -51,7 +51,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "jiang-shi"
       ],
       "otherTags": []
     },

@@ -5,34 +5,39 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Ancestry boosts need to match what you had before turning to a vampire.</p><p>You need to feed on others' life sources by using @UUID[Compendium.pf2e.actionspf2e.Item.49F65W6VwuXhmv8K], @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.45qG1dMfitsS0MoK], @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.q07o5pCh5CVhtX6W], or @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.rz0llfgpFyUDedjv] depending on your heritage. If you do not feed for 3 days, you become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. The Drained value from hunger increases each day until you successfully feed and reduces by one each time you feed. If you reach Drained 5 from hunger, you are @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] with no saving throw until you feed. If you reach Drained 7 from hunger, you are destroyed.</p>"
+      "value": "<p>Ancestry boosts need to match what you had before turning to a vampire.</p><p>You need to feed on others' life sources by using @UUID[Compendium.pf2e.actionspf2e.Item.49F65W6VwuXhmv8K], @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.45qG1dMfitsS0MoK], @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.q07o5pCh5CVhtX6W], or @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.rz0llfgpFyUDedjv] depending on your heritage. If you do not feed for 3 days, you become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. The Drained value from hunger increases each day until you successfully feed and reduces by one each time you feed. If you reach Drained 5 from hunger, you are @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] with no saving throw until you feed. If you reach Drained 7 from hunger, you are destroyed.</p>"
     },
     "rules": [
       {
-        "choices": [
-          {
-            "label": "PF2E.ActorSizeMedium",
-            "value": "medium"
-          },
-          {
-            "label": "PF2E.ActorSizeSmall",
-            "value": "small"
-          }
-        ],
-        "flag": "sizeChoice",
-        "key": "ChoiceSet",
-        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize",
-        "rollOption": "ancestry:size-choice",
-        "adjustName": false
-      },
-      {
-        "key": "CreatureSize",
-        "value": "{item|flags.pf2e.rulesSelections.sizeChoice}"
-      },
-      {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.wphBtAesiHcw78UR",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.wphBtAesiHcw78UR",
         "allowDuplicate": false
+      },
+      {
+        "choices": {
+          "filter": [
+            {
+              "not": "item:slug:{actor|system.details.ancestry.trait}"
+            }
+          ],
+          "itemType": "ancestry",
+          "slugsAsValues": true
+        },
+        "flag": "ancestry",
+        "key": "ChoiceSet",
+        "prompt": "FVTT_PF2EVAMPSANDDHAMPS.SPECIFICRULES.PREVIOUSANCESTRY"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.details.ancestry.adopted",
+        "value": "{item|flags.pf2e.rulesSelections.ancestry}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.details.ancestry.countsAs",
+        "value": "{item|flags.pf2e.rulesSelections.ancestry}"
       }
     ],
     "slug": "vampire",
@@ -87,26 +92,12 @@
         ]
       },
       "2": {
-        "value": [
-          "cha",
-          "con",
-          "dex",
-          "int",
-          "str",
-          "wis"
-        ]
+        "value": []
       }
     },
     "flaws": {
       "0": {
-        "value": [
-          "cha",
-          "con",
-          "dex",
-          "int",
-          "str",
-          "wis"
-        ]
+        "value": []
       }
     },
     "languages": {
@@ -142,12 +133,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.363",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2",
+    "systemVersion": "8.2.0",
     "createdTime": 1760113151225,
-    "modifiedTime": 1760404981284,
-    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+    "modifiedTime": 1781827198356,
+    "lastModifiedBy": "TwjCdJXrvDbGiwda"
   },
   "_id": "vuVn3FeKHSIqJRJ8",
   "sort": 0,

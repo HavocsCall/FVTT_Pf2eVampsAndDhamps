@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Strigoi Heritage"
+          "value": "Strigoi Vampire"
         },
         {
           "value": "Improved Shadow Disguise"
@@ -37,7 +37,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "strigoi"
       ],
       "otherTags": []
     },

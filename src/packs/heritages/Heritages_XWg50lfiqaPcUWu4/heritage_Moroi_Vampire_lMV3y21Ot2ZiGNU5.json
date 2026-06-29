@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.LSxZ7VdgfBBqxxJh]</p><hr /><p>Eternal youth and beauty. The Twilight vampires.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to request and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.LSxZ7VdgfBBqxxJh]</p><hr /><p>Eternal youth and beauty. The Twilight vampires.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to request and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
       "gm": ""
     },
     "publication": {
@@ -45,7 +45,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae",
         "allowDuplicate": false
       },
       {
@@ -70,17 +70,17 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.ybeeNQUptGe15vnF",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.ybeeNQUptGe15vnF",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.nIgLgP15CEUyq14Z",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.nIgLgP15CEUyq14Z",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.LSxZ7VdgfBBqxxJh",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.LSxZ7VdgfBBqxxJh",
         "allowDuplicate": false,
         "reevaluateOnUpdate": true,
         "predicate": [
@@ -91,18 +91,26 @@
             ]
           }
         ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:moroi"
       }
     ],
     "slug": "moroi-vampire",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vampire",
+        "moroi"
+      ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "lMV3y21Ot2ZiGNU5",

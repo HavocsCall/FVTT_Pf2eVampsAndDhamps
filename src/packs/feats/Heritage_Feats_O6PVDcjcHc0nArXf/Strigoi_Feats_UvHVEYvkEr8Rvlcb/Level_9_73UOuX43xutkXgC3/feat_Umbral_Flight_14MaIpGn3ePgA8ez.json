@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Strigoi Heritage"
+          "value": "Strigoi Vampire"
         },
         {
           "value": "Unbral Levitation"
@@ -43,7 +43,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "strigoi"
       ],
       "otherTags": []
     },

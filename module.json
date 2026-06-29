@@ -19,28 +19,71 @@
   ],
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "flags": {
     "canUpload": true,
-    "FVTT_PF2EVAMPSANDDHAMPS": {
+    "FVTT_Pf2eVampsAndDhamps": {
       "pf2e-homebrew": {
         "creatureTraits": {
-          "Jinag-shi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI",
-          "Moroi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI",
-          "Nosferatu": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU",
-          "Strigoi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI",
-          "Vetalarana": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA",
-          "Vrykolakas": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS"
+          "jiang-shi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI.DESCRIPTION"
+          },
+          "moroi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI.DESCRIPTION"
+          },
+          "nosferatu": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU.DESCRIPTION"
+          },
+          "strigoi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI.DESCRIPTION"
+          },
+          "vetalarana": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA.DESCRIPTION"
+          },
+          "vrykolakas": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS.DESCRIPTION"
+          }
         },
         "featTraits": {
-          "vampire": "FVTT_PF2EVAMPSANDDHAMPS.ANCESTRY.VAMPIRE",
-          "Jinag-shi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI",
-          "Moroi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI",
-          "Nosferatu": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU",
-          "Strigoi": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI",
-          "Vetalarana": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA",
-          "Vrykolakas": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS"
+          "vampire": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VAMPIRE.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VAMPIRE.DESCRIPTION"
+          },
+          "jiang-shi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.JIANGSHI.DESCRIPTION"
+          },
+          "moroi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.MOROI.DESCRIPTION"
+          },
+          "nosferatu": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.NOSFERATU.DESCRIPTION"
+          },
+          "strigoi": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.STRIGOI.DESCRIPTION"
+          },
+          "vetalarana": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VETALARANA.DESCRIPTION"
+          },
+          "vrykolakas": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.VRYKOLAKAS.DESCRIPTION"
+          },
+          "hunger": {
+            "label": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.HUNGER.LABEL",
+            "description": "FVTT_PF2EVAMPSANDDHAMPS.TRAIT.HUNGER.DESCRIPTION"
+          }
         }
       }
     }
@@ -153,6 +196,12 @@
       }
     ]
   },
+  "esmodules": [
+    "src/scripts/vampire-ancestry/index.js",
+    "src/scripts/vampire-hunger/index.js"
+  ],
   "scripts": [],
-  "styles": []
+  "styles": [
+    "src/styles/vampire-hunger.css"
+  ]
 }

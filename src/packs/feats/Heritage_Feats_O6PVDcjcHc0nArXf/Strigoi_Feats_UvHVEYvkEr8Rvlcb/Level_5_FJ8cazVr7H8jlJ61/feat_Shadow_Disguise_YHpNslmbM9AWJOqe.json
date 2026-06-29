@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Strigoi Heritage"
+          "value": "Strigoi Vampire"
         }
       ]
     },
@@ -34,7 +34,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "strigoi"
       ],
       "otherTags": []
     },

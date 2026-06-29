@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Nosferatu Heritage"
+          "value": "Nosferatu Vampire"
         }
       ]
     },
@@ -34,7 +34,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "nosferatu"
       ],
       "otherTags": []
     },

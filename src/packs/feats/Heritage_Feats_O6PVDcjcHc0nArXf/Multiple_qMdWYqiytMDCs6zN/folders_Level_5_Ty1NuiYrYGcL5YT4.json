@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "qMdWYqiytMDCs6zN",
+  "name": "Level 5",
+  "color": null,
+  "sorting": "a",
+  "_id": "Ty1NuiYrYGcL5YT4",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "createdTime": 1781826782810,
+    "modifiedTime": 1781826782810,
+    "lastModifiedBy": "TwjCdJXrvDbGiwda",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!Ty1NuiYrYGcL5YT4"
+}

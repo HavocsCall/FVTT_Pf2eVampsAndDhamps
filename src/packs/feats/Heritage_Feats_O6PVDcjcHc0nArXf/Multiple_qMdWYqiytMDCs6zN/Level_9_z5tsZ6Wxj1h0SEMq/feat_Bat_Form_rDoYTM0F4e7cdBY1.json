@@ -1,5 +1,5 @@
 {
-  "folder": "rWLngV2JGzWIEEqv",
+  "folder": "z5tsZ6Wxj1h0SEMq",
   "img": "icons/sundries/books/book-red-exclamation.webp",
   "name": "Bat Form",
   "system": {
@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Moroi or Nosferatu Heritage"
+          "value": "Moroi Vampire or Nosferatu Vampire"
         }
       ]
     },
@@ -74,12 +74,12 @@
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
     "duplicateSource": "Item.2kEamSn9ssQOSyL7",
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.363",
     "systemId": "pf2e",
     "systemVersion": "7.5.2",
     "createdTime": 1760113309803,
-    "modifiedTime": 1760113309803,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+    "modifiedTime": 1781826170807,
+    "lastModifiedBy": "TwjCdJXrvDbGiwda"
   },
   "effects": [],
   "flags": {},
@@ -87,7 +87,7 @@
     "default": 0,
     "UPnjMbTUnpLyKVOr": 3
   },
-  "sort": 200000,
+  "sort": 100000,
   "_id": "rDoYTM0F4e7cdBY1",
   "_key": "!items!rDoYTM0F4e7cdBY1"
 }

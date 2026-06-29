@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Vrykolakas Heritage"
+          "value": "Vrykolakas Vampire"
         }
       ]
     },
@@ -51,7 +51,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "vrykolakas"
       ],
       "otherTags": []
     },

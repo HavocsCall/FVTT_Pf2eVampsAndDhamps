@@ -1,5 +1,5 @@
 {
-  "folder": "rWLngV2JGzWIEEqv",
+  "folder": "z5tsZ6Wxj1h0SEMq",
   "name": "Bloodsense",
   "type": "feat",
   "effects": [],
@@ -42,7 +42,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Vampire Heritage that Drinks Blood"
+          "value": "Moroi Vampire or Nosferatu Vampire or Vrykolakas Vampire"
         }
       ]
     },
@@ -60,7 +60,7 @@
   },
   "_id": "xGGOklzWco7eLWxQ",
   "img": "icons/sundries/books/book-red-exclamation.webp",
-  "sort": 0,
+  "sort": 200000,
   "ownership": {
     "default": 0,
     "UPnjMbTUnpLyKVOr": 3
@@ -70,12 +70,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.363",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "8.2.0",
     "createdTime": 1760113309803,
-    "modifiedTime": 1760402795735,
-    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+    "modifiedTime": 1781826813104,
+    "lastModifiedBy": "TwjCdJXrvDbGiwda"
   },
   "_key": "!items!xGGOklzWco7eLWxQ"
 }

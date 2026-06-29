@@ -15,12 +15,12 @@
       "gm": ""
     },
     "level": {
-      "value": 9
+      "value": 17
     },
     "prerequisites": {
       "value": [
         {
-          "value": "Moroi Heritage"
+          "value": "Moroi Vampire"
         },
         {
           "value": "Irresistible Allure"
@@ -37,7 +37,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "moroi"
       ],
       "otherTags": []
     },

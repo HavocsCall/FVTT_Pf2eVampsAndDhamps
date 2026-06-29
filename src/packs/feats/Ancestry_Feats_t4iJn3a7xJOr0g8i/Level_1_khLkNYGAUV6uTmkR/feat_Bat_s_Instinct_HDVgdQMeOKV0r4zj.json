@@ -67,7 +67,11 @@
     "subfeatures": {
       "proficiencies": {},
       "senses": {},
-      "suppressedFeatures": []
+      "suppressedFeatures": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      }
     },
     "location": null
   },
@@ -82,12 +86,12 @@
     "compendiumSource": null,
     "duplicateSource": "Item.VatOyPgCJx9pX50k",
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "8.1.2",
     "createdTime": 1760113309803,
-    "modifiedTime": 1760126303587,
-    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+    "modifiedTime": 1779243166374,
+    "lastModifiedBy": "eFGkP8WzukLIpsI9"
   },
   "_id": "HDVgdQMeOKV0r4zj",
   "_key": "!items!HDVgdQMeOKV0r4zj"

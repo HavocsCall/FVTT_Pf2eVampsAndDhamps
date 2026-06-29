@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "O6PVDcjcHc0nArXf",
+  "name": "Multiple",
+  "color": null,
+  "sorting": "a",
+  "_id": "qMdWYqiytMDCs6zN",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.363",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "createdTime": 1781826142962,
+    "modifiedTime": 1781826142962,
+    "lastModifiedBy": "TwjCdJXrvDbGiwda",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!qMdWYqiytMDCs6zN"
+}

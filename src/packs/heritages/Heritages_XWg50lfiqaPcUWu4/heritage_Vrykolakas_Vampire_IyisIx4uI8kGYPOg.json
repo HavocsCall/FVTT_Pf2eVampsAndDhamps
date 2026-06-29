@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Ingredient of a physical curing elixir, such as witchhazel, wilow bark, or aloe. Ask your GM.</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.U9GUJSfrhZ8jDcns]</p><hr /><p>Bestial, associated with animals and plagues.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>Claws</p><p>All fours 30 feet speed</p><p>Change Shape - bestial/humanoid</p><p><strong>Cons:</strong></p><p>Burial Site Bound.</p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Ingredient of a physical curing elixir, such as witchhazel, wilow bark, or aloe. Ask your GM.</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.U9GUJSfrhZ8jDcns]</p><hr /><p>Bestial, associated with animals and plagues.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>Claws</p><p>All fours 30 feet speed</p><p>Change Shape - bestial/humanoid</p><p><strong>Cons:</strong></p><p>Burial Site Bound.</p>",
       "gm": ""
     },
     "publication": {
@@ -66,7 +66,7 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae",
         "allowDuplicate": false
       },
       {
@@ -88,12 +88,12 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.PKfz4pGsffFQuWpN",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.PKfz4pGsffFQuWpN",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.U9GUJSfrhZ8jDcns",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.U9GUJSfrhZ8jDcns",
         "predicate": [
           {
             "gte": [
@@ -104,18 +104,26 @@
         ],
         "allowDuplicate": false,
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:vrykolakas"
       }
     ],
     "slug": "vrykolakas-vampire",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vampire",
+        "vrykolakas"
+      ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "IyisIx4uI8kGYPOg",

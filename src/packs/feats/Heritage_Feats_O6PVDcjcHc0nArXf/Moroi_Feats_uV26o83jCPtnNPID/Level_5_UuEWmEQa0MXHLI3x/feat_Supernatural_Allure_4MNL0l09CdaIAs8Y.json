@@ -4,14 +4,14 @@
   "name": "Supernatural Allure",
   "system": {
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 2
     },
     "category": "ancestry",
     "description": {
-      "value": "<p><strong>Frequency:</strong> Once per day</p><hr /><p>Your intense eyes lock with your chosen victim. You may attempt to allure them, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6] spell.</p>",
+      "value": "<p><strong>Frequency:</strong> Once per day</p><hr><p>Your intense eyes lock with your chosen victim. You may attempt to allure them, with the effects of the @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6] spell using your class DC as the DC.</p>",
       "gm": ""
     },
     "level": {
@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Moroi Heritage"
+          "value": "Moroi Vampire"
         }
       ]
     },
@@ -34,7 +34,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "moroi"
       ],
       "otherTags": []
     },
@@ -57,12 +58,12 @@
     "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
     "duplicateSource": "Item.QKQQyRIC6GEBijW9",
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2",
+    "systemVersion": "8.1.2",
     "createdTime": 1760111949143,
-    "modifiedTime": 1760111949143,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+    "modifiedTime": 1779244820845,
+    "lastModifiedBy": "eFGkP8WzukLIpsI9"
   },
   "effects": [],
   "flags": {},

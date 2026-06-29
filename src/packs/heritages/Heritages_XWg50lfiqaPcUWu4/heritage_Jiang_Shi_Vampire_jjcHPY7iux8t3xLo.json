@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.45qG1dMfitsS0MoK]</p><p><strong>Revulsion:</strong> Brandished mirror or ringing bells</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.JB0PJmi5ifizxZje]</p><hr /><p>Asian Vampires, paper head.</p><p><strong>Pros:</strong></p><p>Breathsense.</p><p></p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.45qG1dMfitsS0MoK]</p><p><strong>Revulsion:</strong> Brandished mirror or ringing bells</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.JB0PJmi5ifizxZje]</p><hr /><p>Asian Vampires, paper head.</p><p><strong>Pros:</strong></p><p>Breathsense.</p><p></p>",
       "gm": ""
     },
     "publication": {
@@ -25,16 +25,16 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.45qG1dMfitsS0MoK",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.45qG1dMfitsS0MoK",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.4KFIne2XVFnaqDrj"
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.4KFIne2XVFnaqDrj"
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.JB0PJmi5ifizxZje",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.JB0PJmi5ifizxZje",
         "predicate": [
           {
             "gte": [
@@ -45,18 +45,26 @@
         ],
         "allowDuplicate": false,
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:jiang-shi"
       }
     ],
     "slug": "jiang-shi-vampire",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vampire",
+        "jiang-shi"
+      ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "jjcHPY7iux8t3xLo",

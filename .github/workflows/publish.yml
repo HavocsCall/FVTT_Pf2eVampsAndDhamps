@@ -42,7 +42,7 @@ jobs:
         run: npm ci
 
       - name: Build Packs
-        run: npm run compile --if-present
+        run: npm run Json-to-Compendium
 
       # Create a folder containing all the module stuff and zip it for the release
       - name: Create zip

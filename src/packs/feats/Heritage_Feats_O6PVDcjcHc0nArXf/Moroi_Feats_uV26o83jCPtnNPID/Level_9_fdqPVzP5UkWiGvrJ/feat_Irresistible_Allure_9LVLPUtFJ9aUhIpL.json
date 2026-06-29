@@ -20,7 +20,7 @@
     "prerequisites": {
       "value": [
         {
-          "value": "Moroi Heritage"
+          "value": "Moroi Vampire"
         },
         {
           "value": "Supernatural Charm"
@@ -37,7 +37,8 @@
     "traits": {
       "rarity": "common",
       "value": [
-        "vampire"
+        "vampire",
+        "moroi"
       ],
       "otherTags": []
     },

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.u16v9mFtIA45pXQW]</p><hr /><p>Eternal life, not eternal youth.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to coerce and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.u16v9mFtIA45pXQW]</p><hr /><p>Eternal life, not eternal youth.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to coerce and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
       "gm": ""
     },
     "publication": {
@@ -46,7 +46,7 @@
       {
         "key": "GrantItem",
         "allowDuplicate": false,
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.xFtNxou5uymF7iae"
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.xFtNxou5uymF7iae"
       },
       {
         "key": "FlatModifier",
@@ -70,17 +70,17 @@
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.nIgLgP15CEUyq14Z",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.nIgLgP15CEUyq14Z",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.ybeeNQUptGe15vnF",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.ybeeNQUptGe15vnF",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.u16v9mFtIA45pXQW",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.u16v9mFtIA45pXQW",
         "predicate": [
           {
             "gte": [
@@ -91,18 +91,26 @@
         ],
         "allowDuplicate": false,
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:nosferatu"
       }
     ],
     "slug": "nosferatu-vampire",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vampire",
+        "nosferatu"
+      ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "rH6LkKQ4ouW5znix",

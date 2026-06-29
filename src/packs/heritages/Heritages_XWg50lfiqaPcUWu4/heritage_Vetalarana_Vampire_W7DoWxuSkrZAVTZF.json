@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.rz0llfgpFyUDedjv]</p><p><strong>Revulsion:</strong> Openly sharing secrets</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.r6ntEE0Ib9dTelCg]</p><hr /><p>Psychic vampires, big heads.</p><p><strong>Pros:</strong></p><p>Thoughtsense.</p>",
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.rz0llfgpFyUDedjv]</p><p><strong>Revulsion:</strong> Openly sharing secrets</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.r6ntEE0Ib9dTelCg]</p><hr /><p>Psychic vampires, big heads.</p><p><strong>Pros:</strong></p><p>Thoughtsense.</p>",
       "gm": ""
     },
     "publication": {
@@ -25,12 +25,12 @@
     "rules": [
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.rz0llfgpFyUDedjv",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.rz0llfgpFyUDedjv",
         "allowDuplicate": false
       },
       {
         "key": "GrantItem",
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.features.Item.8jSq1DPANWLoh7fG",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.features.Item.8jSq1DPANWLoh7fG",
         "allowDuplicate": false
       },
       {
@@ -43,21 +43,29 @@
             ]
           }
         ],
-        "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.actions.Item.r6ntEE0Ib9dTelCg",
+        "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.actions.Item.r6ntEE0Ib9dTelCg",
         "allowDuplicate": false,
         "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:vetalarana"
       }
     ],
     "slug": "vetalarana-vampire",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "vampire",
+        "vetalarana"
+      ],
       "rarity": "common"
     },
     "ancestry": {
       "name": "Vampire",
       "slug": "vampire",
-      "uuid": "Compendium.foundryvtt-pf2e-vamps-and-dhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
+      "uuid": "Compendium.FVTT_Pf2eVampsAndDhamps.ancestries.Item.vuVn3FeKHSIqJRJ8"
     }
   },
   "_id": "W7DoWxuSkrZAVTZF",
